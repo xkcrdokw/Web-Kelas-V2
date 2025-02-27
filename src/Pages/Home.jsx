@@ -17,6 +17,9 @@ const Home = () => {
 							35
 						</span>
 					</div>
+					<div id="AngkaGradientBlue" className="flex items-center justify-center">
+					Siswa
+					</div>
 				</div>
 
 				<div className="grid grid-cols-2 md:grid-cols-2 gap-7 md:gap-5">

@@ -79,24 +79,25 @@ const StrukturKelas = () => {
           </div>
         </div>
         
+        
         {/* keamanan dan keagamaan */}
         <div className="lg:flex">
-          <img src="LineHorizontal.svg" alt="" className="relative top-[-9.5rem]" data-aos="fade-up" data-aos-duration="600" />
-          <img src="LineHorizontal.svg" alt="" className="relative top-[-9.5rem] hidden lg:flex" data-aos="fade-up" data-aos-duration="600" />
-          <img src="LineHorizontal.svg" alt="" className="relative top-[-9.5rem] hidden lg:flex" data-aos="fade-up" data-aos-duration="600" />
+          <img src="LineHorizontal.svg" alt="" className="relative top-[-12.5rem]" data-aos="fade-up" data-aos-duration="600" />
+          <img src="LineHorizontal.svg" alt="" className="relative top-[-12.5rem] hidden lg:flex" data-aos="fade-up" data-aos-duration="600" />
+          <img src="LineHorizontal.svg" alt="" className="relative top-[-12.5rem] hidden lg:flex" data-aos="fade-up" data-aos-duration="600" />
         </div>
-        <div className="flex gap-[10.6rem] relative top-[-10.4rem] lg:gap-[27.4rem]" data-aos="fade-up" data-aos-duration="800">
+        <div className="flex gap-[10.6rem] relative top-[-13.4rem] lg:gap-[27.4rem]" data-aos="fade-up" data-aos-duration="800">
           <img src="LineKananKiri.svg" alt="" />
           <img src="LineKananKiri.svg" alt="" />
         </div>
-        <div className="flex gap-[10.6rem] relative top-[-11.1rem] lg:gap-[27.4rem]" data-aos="fade-up" data-aos-duration="1000">
+        <div className="flex gap-[10.6rem] relative top-[-14.1rem] lg:gap-[27.4rem]" data-aos="fade-up" data-aos-duration="1000">
           <img src="Circle.svg" alt="" />
           <img src="Circle.svg" alt="" />
         </div>
-        <div data-aos="fade-up" data-aos-duration="120" className="relative top-[-11.5rem]">
+        <div data-aos="fade-up" data-aos-duration="120" className="relative top-[-14.5rem]">
           <img src="LineVertikal2.svg" alt="" className="relative top-[-3.8rem]" />
         </div>
-        <div className="flex gap-[5rem] relative top-[-12.5rem] lg:gap-[22rem]" data-aos="fade-up" data-aos-duration="1200">
+        <div className="flex gap-[5rem] relative top-[-15.5rem] lg:gap-[22rem]" data-aos="fade-up" data-aos-duration="1200">
           <div className="flex-col">
             <BorderStruktur Jabatan="Keamanan" Nama="Hamam" Width="120px" />
             <div className="py-[3%]"></div>

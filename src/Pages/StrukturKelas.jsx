@@ -208,6 +208,7 @@ const StrukturKelas = () => {
 						<div className="py-[3%]"></div>
 						<BorderStruktur Jabatan="" Nama="Gusti" Width="120px" />
 					</div>
+				</div>
 				{/* peralatan */}
 				<div className="lg:flex">
 					<img

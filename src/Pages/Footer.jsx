@@ -24,11 +24,6 @@ const Footer = () => {
 										OnlyNash
 									</a>
 								</li>
-								<li>
-									<a href="https://www.instagram.com/nazvr.son_/?hl=id" class="hover:underline">
-										NexiteTeam
-									</a>
-								</li>
 							</ul>
 						</div>
 						<div className="">
@@ -55,7 +50,7 @@ const Footer = () => {
 				<div class="sm:flex sm:items-center sm:justify-between">
 					<div class="flex mt-4 justify-center sm:mt-0">
 						<p className="text-[0.7rem] text-white opacity-70">
-							© {new Date().getFullYear()} Kelas XII TKR 4 | Di Kelola Oleh Siswa TKR 4
+							© {new Date().getFullYear()} Kelas XI TKR 4 | Di Kelola Oleh Siswa TKR 4
 						</p>
 					</div>
 				</div>

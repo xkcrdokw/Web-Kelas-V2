@@ -209,66 +209,7 @@ const StrukturKelas = () => {
 						<BorderStruktur Jabatan="" Nama="Gusti" Width="120px" />
 					</div>
 
-					<div className="flex-col hidden lg:flex">
-						<BorderStruktur Jabatan="Kesehatan" Nama="" Width="120px" />
-						<div className="py-[3%]"></div>
-						<BorderStruktur Jabatan="" Nama="i" Width="120px" />
-					</div>
-				</div>
-
-				{/* Kesehatan */}
-				<div className="lg:flex">
-					<img
-						src="LineHorizontal.svg"
-						alt=""
-						className="relative top-[-16.9rem] lg:hidden"
-						data-aos="fade-up"
-						data-aos-duration="600"
-					/>
-					{/* 	<img
-						src="LineHorizontal.svg"
-						alt=""
-						className="relative top-[-16.9rem] hidden lg:flex lg:w-[50px]"
-						data-aos="fade-up"
-						data-aos-duration="600"
-					/> */}
-
-					<img
-						src="LineHorizontal.svg"
-						alt=""
-						className="relative top-[-16.9rem] hidden lg:flex lg:hidden "
-						data-aos="fade-up"
-						data-aos-duration="600"
-					/>
-				</div>
-
-				<div
-					className="flex gap-[10.6rem] lg:gap-[23.1rem] relative top-[-17.85rem] lg:hidden"
-					data-aos="fade-up"
-					data-aos-duration="800">
-					<img src="LineKananKiri.svg" alt="" />
-					<img src="LineKananKiri.svg" alt="" />
-				</div>
-				<div
-					className="flex gap-[10.6rem] relative top-[-18.6rem] lg:gap-[23.1rem] lg:hidden"
-					data-aos="fade-up"
-					data-aos-duration="1000">
-					<img src="Circle.svg" alt="" />
-					<img src="Circle.svg" alt="" />
-				</div>
-
-				<div
-					className=" flex gap-[5rem] relative top-[-18.9rem] lg:gap-[17.5rem] lg:hidden"
-					data-aos="fade-up"
-					data-aos-duration="1100">
-					<div className="flex-col">
-						<BorderStruktur Jabatan="Kesehatan" Nama="" Width="120px" />
-					</div>
-
-					<div className="flex-col">
-						<BorderStruktur Jabatan="Kesehatan" Nama="" Width="120px" />
-					</div>
-				</div>
+	
 
 				{/* peralatan */}
 				<div className="lg:flex">
@@ -293,14 +234,7 @@ const StrukturKelas = () => {
 						data-aos="fade-up"
 						data-aos-duration="600"
 					/>
-				</div>
-
-				yg
-
-				
-				
-
-				
+				</div>	
 			</div>
 		</div>
 	)

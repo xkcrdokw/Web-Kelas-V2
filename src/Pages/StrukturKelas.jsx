@@ -78,6 +78,7 @@ const StrukturKelas = () => {
             <BorderStruktur Jabatan="" Nama="Marchel" Width="120px" />
           </div>
         </div>
+        
         {/* keamanan dan keagamaan */}
         <div className="lg:flex">
           <img src="LineHorizontal.svg" alt="" className="relative top-[-9.5rem]" data-aos="fade-up" data-aos-duration="600" />
@@ -92,7 +93,10 @@ const StrukturKelas = () => {
           <img src="Circle.svg" alt="" />
           <img src="Circle.svg" alt="" />
         </div>
-        <div className="flex gap-[5rem] relative top-[-11.2rem] lg:gap-[22rem]" data-aos="fade-up" data-aos-duration="1200">
+        <div data-aos="fade-up" data-aos-duration="120" className="relative top-[-11.5rem]">
+          <img src="LineVertikal2.svg" alt="" className="relative top-[-3.8rem]" />
+        </div>
+        <div className="flex gap-[5rem] relative top-[-12.5rem] lg:gap-[22rem]" data-aos="fade-up" data-aos-duration="1200">
           <div className="flex-col">
             <BorderStruktur Jabatan="Keamanan" Nama="Hamam" Width="120px" />
             <div className="py-[3%]"></div>

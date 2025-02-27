@@ -72,7 +72,7 @@ export default function BoxTextAnonim() {
 						<img src="/paper-plane.png" alt="" className="w-auto h-6" />
 						<img src="/next.png" alt="" className="h-3 w-3" />
 					</div>
-					<h1 className="capitalize text-white text-left pr-5 text-base font-semibold  mt-5">Text Anonim</h1>
+					<h1 className="capitalize text-white text-left pr-5 text-base font-semibold  mt-5">Chat Anonim here!</h1>
 				</div>
 			</div>
 

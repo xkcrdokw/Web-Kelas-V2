@@ -16,7 +16,7 @@ const Navbar = () => {
 				</div>
 				<div className={`text-center text-white ${isMenuOpen ? "hidden" : ""}`}>
 					<div className="text-[0.7rem]">Hi, visitor!</div>
-					<div className="font-bold text-[1rem]">WELCOME</div>
+					<div className="font-bold text-[1rem]">WELCOME TO WEBSITE</div>
 				</div>
 
 				<div

@@ -2,8 +2,7 @@ import React, { useState } from "react"
 import Slider from "react-slick"
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
-import ButtonSend from "../components/ButtonSend"
-import ButtonRequest from "../components/ButtonRequest"
+import AnggotaKelas from "../components/AnggotaKelas"
 import Modal from "@mui/material/Modal"
 import { Box, IconButton } from "@mui/material"
 import CloseIcon from "@mui/icons-material/Close"
@@ -86,8 +85,7 @@ const Carousel = () => {
         </Slider>
       </div>
       <div className="flex justify-center items-center gap-6 text-base mt-5 lg:mt-8">
-        <ButtonSend />
-        <ButtonRequest />
+        <AnggotaKelas />
       </div>
       <Modal open={open} onClose={handleCloseModal} aria-labelledby="image-modal" aria-describedby="image-modal-description" className="flex justify-center items-center">
         <animated.div style={{ ...modalFade, maxWidth: "90vw", maxHeight: "auto", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center", position: "relative", }} className="p-2 rounded-lg">

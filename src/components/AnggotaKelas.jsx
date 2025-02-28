@@ -11,7 +11,6 @@ export default function AnggotaKelas() {
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
-
   const anggotaKelas = [
     "Afdal",
     "Andre",
@@ -60,8 +59,12 @@ export default function AnggotaKelas() {
         open={open}
         onClose={handleClose}
         closeAfterTransition
-        BackdropComponent={Backdrop}
-        BackdropProps={{ timeout: 500 }}
+        slots={{ backdrop: Backdrop }}
+        slotProps={{
+          backdrop: {
+            TransitionComponent: Fade,
+          },
+        }}
       >
         <Fade in={open}>
           <Box className="modal-container">
@@ -87,4 +90,4 @@ export default function AnggotaKelas() {
       </Modal>
     </div>
   );
-		    }
+	  }

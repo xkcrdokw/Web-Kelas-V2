@@ -1,10 +1,10 @@
 
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Backdrop from "@mui/material/Backdrop";
 import Box from "@mui/material/Box";
 import Modal from "@mui/material/Modal";
 import Typography from "@mui/material/Typography";
-import { useSpring, animated } from "@react-spring/web";
+import Fade from "@mui/material/Fade";
 import CloseIcon from "@mui/icons-material/Close";
 import Button from "@mui/material/Button";
 
@@ -12,10 +12,7 @@ export default function AnggotaKelas() {
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
-  const fade = useSpring({
-    opacity: open ? 1 : 0,
-    config: { duration: 200 },
-  });
+
   const anggotaKelas = [
     "Afdal",
     "Andre",
@@ -54,7 +51,7 @@ export default function AnggotaKelas() {
     <div>
       <Button onClick={handleOpen}>
         <div className="flex items-center space-x-2 text-white px-6 py-4">
-          <span className="text-base lg:text-1xl">AnggotaKelas</span>
+          <span>AnggotaKelas</span>
           <img src="/avatar.png" alt="icon" className="w-6 h-6" />
         </div>
       </Button>
@@ -65,26 +62,15 @@ export default function AnggotaKelas() {
         onClose={handleClose}
         closeAfterTransition
         BackdropComponent={Backdrop}
-        BackdropProps={{
-          timeout: 500,
-        }}
+        BackdropProps={{ timeout: 500 }}
       >
-        <animated.div style={fade}>
+        <Fade in={open}>
           <Box className="modal-container">
-            <CloseIcon
-              style={{
-                position: "absolute",
-                top: "10px",
-                right: "10px",
-                cursor: "pointer",
-                color: "grey",
-              }}
-              onClick={handleClose}
-            />
+            <Button onClick={handleClose} style={{ position: "absolute", top: "0", right: "0" }}>
+              <CloseIcon />
+            </Button>
             <Typography id="spring-modal-description" sx={{ mt: 2 }}>
-              <h6 className="text-center text-white text-2xl mb-5">
-                Anggota Kelas
-              </h6>
+              <h6 className="text-center text-white text-2xl mb-5">Anggota Kelas</h6>
               <div className="h-[22rem] overflow-y-auto">
                 {anggotaKelas.length === 0 ? (
                   <p className="text-white text-center">Tidak ada anggota kelas</p>
@@ -98,7 +84,7 @@ export default function AnggotaKelas() {
               </div>
             </Typography>
           </Box>
-        </animated.div>
+        </Fade>
       </Modal>
     </div>
   );

@@ -57,17 +57,7 @@ const Navbar = () => {
           <div className="fixed inset-0 bg-black opacity-50 z-10" onClick={toggleUserInfo}></div>
         )}
         {isUserInfoOpen && (
-          <div
-            className={`fixed top-0 right-0 h-full w-64 shadow-lg transform transition-transform duration-300 ease-in-out ${
-              isUserInfoOpen ? "translate-x-0" : "translate-x-full"
-            } bg-white/50 rounded-md p-5`}
-            id="UserInfo"
-          >
-            <div className="text-center text-white mt-8">
-              <div className="font-bold text-[1rem]">Informasi</div>
-              <div className="text-[0.7rem]">Web ini masih tahap pengembangan</div>
-            </div>
-          </div>
+          <Informasi />
         )}
       </div>
 
@@ -95,6 +85,20 @@ const Navbar = () => {
         </ul>
       </div>
     </>
+  );
+};
+
+const Informasi = () => {
+  return (
+    <div
+      className={`fixed top-0 right-0 h-full w-64 shadow-lg transform transition-transform duration-300 ease-in-out translate-x-0`}
+      id="UserInfo"
+    >
+      <div className="text-center text-white mt-8">
+        <div className="font-bold text-[1rem]">Informasi</div>
+        <div className="text-[0.7rem]">Web ini masih tahap pengembangan</div>
+      </div>
+    </div>
   );
 };
 

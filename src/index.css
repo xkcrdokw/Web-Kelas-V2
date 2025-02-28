@@ -475,10 +475,9 @@ input:focus {
 }
 
 #UserInfo {
-	position: fixed;
-	top: 50%;
+	position: absolute;
+	top: 100%;
 	right: 0;
-	transfrom: translateY(-50%);
 	background-color: rgba(0, 0, 0, 0.5);
 	padding: 20px;
 	border-radius: 10px;

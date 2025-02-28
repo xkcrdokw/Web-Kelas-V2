@@ -50,10 +50,10 @@ export default function AnggotaKelas() {
   return (
     <div>
       <Button onClick={handleOpen}>
-        <div className="flex items-center space-x-2 text-white px-6 py-4">
-          <span>AnggotaKelas</span>
+        <button className="flex items-center space-x-2 text-white px-6 py-4">
+          <span>Anggota Kelas</span>
           <img src="/avatar.png" alt="icon" className="w-6 h-6" />
-        </div>
+        </button>
       </Button>
       <Modal
         aria-labelledby="spring-modal-title"

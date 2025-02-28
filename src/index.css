@@ -474,6 +474,15 @@ input:focus {
 	}
 }
 
+#UserInfo {
+	position: fixed;
+	top: 50%;
+	right: 0;
+	transfrom: translateY(-50%);
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 20px;
+	border-radius: 10px;
+}
 /* #BoxGallery {
 	padding: 10%;
 	height: auto;

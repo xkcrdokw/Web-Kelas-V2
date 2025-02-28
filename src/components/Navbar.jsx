@@ -60,7 +60,7 @@ const Navbar = () => {
           <div
             className={`fixed top-0 right-0 h-full w-64 shadow-lg transform transition-transform duration-300 ease-in-out ${
               isUserInfoOpen ? "translate-x-0" : "translate-x-full"
-            }`}
+            } bg-white/50 rounded-md p-5`}
             id="UserInfo"
           >
             <div className="text-center text-white mt-8">

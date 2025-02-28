@@ -52,11 +52,10 @@ export default function AnggotaKelas() {
   return (
     <div>
       <Button
-        onClick={handleOpen}
-        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-        id="AnggotaKelas"
-      >
-        Anggota Kelas
+        onClick={handleOpen}>
+        <button className="flex items-center space-x-2 text-white px-6 py-4" id = "AnggotaKelas">
+          <span className="text-base lg:text-1xl">AnggotaKelas</span>
+		<img src="/avatar.png" alt="icon" className="w-6 h-6" />
       </Button>
       <Modal
         aria-labelledby="spring-modal-title"

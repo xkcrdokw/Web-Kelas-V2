@@ -11,12 +11,10 @@ export default function AnggotaKelas() {
   const [open, setOpen] = useState(false)
   const handleOpen = () => setOpen(true)
   const handleClose = () => setOpen(false)
-
   const fade = useSpring({
     opacity: open ? 1 : 0,
     config: { duration: 200 },
   })
-
   const anggotaKelas = [
     "Afdal",
     "Andre",
@@ -24,13 +22,41 @@ export default function AnggotaKelas() {
     "Arul",
     "Arya",
     "Dani",
-    // Tambahkan nama anggota kelas lainnya di sini
+    "Bebas",
+    "Cinta",
+    "Dewi",
+    "Ega",
+    "Fajar",
+    "Gita",
+    "Hana",
+    "Ika",
+    "Joko",
+    "Kiky",
+    "Lesti",
+    "Mika",
+    "Nina",
+    "Oka",
+    "Puri",
+    "Qisty",
+    "Rina",
+    "Sari",
+    "Tina",
+    "Uci",
+    "Vina",
+    "Wina",
+    "Xena",
+    "Yoga",
+    "Zara",
   ]
 
   return (
     <div>
-      <Button onClick={handleOpen} className="flex items-center space-x-2 text-white px-6 py-4" id="AnggotaKelas">
-        <span className="text-base lg:text-1xl">Anggota Kelas</span>
+      <Button
+        onClick={handleOpen}
+        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        id="AnggotaKelas"
+      >
+        Anggota Kelas
       </Button>
       <Modal
         aria-labelledby="spring-modal-title"
@@ -70,4 +96,4 @@ export default function AnggotaKelas() {
       </Modal>
     </div>
   )
-				  }
+		      }

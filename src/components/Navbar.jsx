@@ -54,9 +54,6 @@ const Navbar = () => {
           </ul>
         </div>
         {isUserInfoOpen && (
-          <div className="fixed inset-0 bg-black opacity-50 z-10" onClick={toggleUserInfo}></div>
-        )}
-        {isUserInfoOpen && (
           <div
             className={`absolute top-full right-0 bg-black/50 p-5 rounded-md`}
             id="UserInfo"

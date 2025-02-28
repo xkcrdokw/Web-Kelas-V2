@@ -8,10 +8,11 @@ import { Box, IconButton } from "@mui/material"
 import CloseIcon from "@mui/icons-material/Close"
 import { useSpring, animated } from "@react-spring/web"
 
-import image1 from "/Background.jpg"
-import image2 from "/Background1.jpeg"
-import image3 from "/ClassMeet.jpeg"
-import image4 from "/P5.jpeg"
+import image1 from "/1.jpg"
+import image2 from "/2.jpg"
+import image3 from "/3.jpg"
+import image4 from "/4.jpg"
+import image5 from "/5.jpg"
 
 const Carousel = () => {
   const [images, setImages] = useState([])
@@ -28,6 +29,7 @@ const Carousel = () => {
     image2,
     image3,
     image4,
+    image5, 
   ]
 
   const settings = {

@@ -58,7 +58,7 @@ const Navbar = () => {
         )}
         {isUserInfoOpen && (
           <div
-            className={`fixed top-1/2 right-0 transform -translate-y-1/2 bg-black/50 p-5 rounded-md`}
+            className={`absolute top-full right-0 bg-black/50 p-5 rounded-md`}
             id="UserInfo"
           >
             <div className="text-center text-white">

@@ -237,7 +237,7 @@ body {
 	z-index: 99;
 }
 
-#SendImg Img,
+#AnggotaKelas Img,
 #SendRequest Img,
 #InputChat Img {
 	filter: brightness(0) invert(1);

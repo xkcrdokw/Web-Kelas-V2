@@ -24,7 +24,7 @@ const Navbar = () => {
           <div className="font-bold text-[1rem]">WELCOME TO WEBSITE</div>
         </div>
         <div className={`w-10 h-10 rounded-full flex justify-center items-center `} id="UserButton">
-          <img src="/user.svg" alt="" className="" onClick={toggleUserInfo} />
+          <img src="/Notif.svg" alt="" className="" onClick={toggleUserInfo} />
         </div>
         {isMenuOpen && (
           <div className="fixed inset-0 bg-black opacity-50 z-10" onClick={toggleMenu}></div>

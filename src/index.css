@@ -179,36 +179,27 @@ body {
 }
 
 #TotalSiswa {
-	width: 100%;
-	margin: 0 auto;
-	margin-bottom: 8%;
-	background: rgba(255, 255, 255, 0.14);
-	border-radius: 25pt;
-	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-	backdrop-filter: blur(6.9px);
-	-webkit-backdrop-filter: blur(6.9px);
-	border: 1px solid rgba(255, 255, 255, 0.09);
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 8%;
+  background: rgba(255, 255, 255, 0.14);
+  border-radius: 25pt;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.9px);
+  -webkit-backdrop-filter: blur(6.9px);
+  border: 1px solid rgba(255, 255, 255, 0.09);
 }
 
 #AngkaGradientBlue {
-	-webkit-text-stroke: 1px #14a6ef3f; /* Menggunakan efek outline teks dengan warna hitam */
-	background: linear-gradient(to bottom right, #96dcff, #14a6ef 55%);
-	filter: brightness(1.2);
-	-webkit-background-clip: text;
-	background-clip: text;
-	color: transparent;
-	text-shadow: #a4dcf893 2px 0 20px;
-}
-
-#AngkaGradientPink {
-	-webkit-text-stroke: 1px #d41a773d; /* Menggunakan efek outline teks dengan warna hitam */
-	background: linear-gradient(to top right, #fab6e7, #d41a77 80%);
-	filter: brightness(1.2);
-	-webkit-background-clip: text;
-	background-clip: text;
-	color: transparent;
-	text-shadow: #d41a77 2px 0 20px;
-}
+  -webkit-text-stroke: 1px #14a6ef3f;
+  /* Menggunakan efek outline teks dengan warna hitam */
+  background: linear-gradient(to bottom right, #96dcff, #14a6ef 55%);
+  filter: brightness(1.2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: #a4dcf893 2px 0 20px;
+		}
 
 .slick-slide {
 	padding: 0 10px;

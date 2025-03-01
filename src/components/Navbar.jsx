@@ -43,12 +43,7 @@ const Navbar = () => {
             </li>
             <li className="mb-4">
               <a href="#Gallery" className="text-white opacity-80 text-lg font-bold">
-                Gallery
-              </a>
-            </li>
-            <li className="mb-4">
-              <a href="#Anggota Kelas" className="text-white opacity-80 text-lg font-bold">
-                Anggota Kelas
+                Gallery & Anggota Kelas
               </a>
             </li>
             <li>
@@ -84,12 +79,7 @@ const Navbar = () => {
           </li>
           <li className="mb-4">
             <a href="#Gallery" className="text-white opacity-80 text-[1rem] font-semibold">
-              Gallery
-            </a>
-          </li>
-          <li className="mb-4">
-            <a href="#Anggota Kelas" className="text-white opacity-80 text-[1rem] font-semibold">
-              Anggota Kelas
+              Gallery & Anggota Kelas
             </a>
           </li>
           <li>

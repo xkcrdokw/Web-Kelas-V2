@@ -211,9 +211,6 @@ const StrukturKelas = () => {
 				</div>
 				{/* peralatan */}
 				<div className="lg:flex">
-					<div className="relative left-[0.2rem]">
-					<img    src="Circle.svg" alt"" />
-					</div>
 					<img
 						src="LineHorizontal.svg"
 						alt=""
@@ -235,9 +232,6 @@ const StrukturKelas = () => {
 						data-aos="fade-up"
 						data-aos-duration="600"
 					/>
-					<div className="relative right-[0.2rem]">
-					<img    src="Circle.svg" alt"" />
-					</div>
 				</div>	
 			</div>
 		</div>

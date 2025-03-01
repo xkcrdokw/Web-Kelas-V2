@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 
 const Navbar = () => {
@@ -54,13 +55,17 @@ const Navbar = () => {
           </ul>
         </div>
         {isUserInfoOpen && (
-          <div
-            className={`absolute top-full right-0 bg-black/50 p-5 rounded-md`}
-            id="UserInfo"
-          >
+          <div className={`absolute top-full right-0 bg-black/50 p-5 rounded-md`} id="UserInfo">
             <div className="text-center text-white">
               <div className="font-bold text-[1rem]">Informasi</div>
-              <div className="text-[0.7rem]">Web ini masih tahap pengembangan</div>
+              <div className="flex flex-col gap-5 mt-5">
+                <div className="bg-white/10 p-3 rounded-md">
+                  <div className="text-[0.7rem]">Web ini masih tahap pengembangan</div>
+                </div>
+                <div className="bg-white/10 p-3 rounded-md">
+                  <div className="text-[0.7rem]">Selamat menunaikan ibadah puasa..</div>
+                </div>
+              </div>
             </div>
           </div>
         )}
@@ -90,7 +95,3 @@ const Navbar = () => {
         </ul>
       </div>
     </>
-  );
-};
-
-export default Navbar;

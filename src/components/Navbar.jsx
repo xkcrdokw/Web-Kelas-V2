@@ -94,6 +94,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-
-Aku mau menambahkan bagian informasi, tolong ubha kodenya, buat tiap informasi ada kotaknya sendiri tetapi masih di kotak yang sama

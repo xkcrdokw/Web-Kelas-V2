@@ -8,7 +8,7 @@ const Home = () => {
     <div className="text-white px-[10%]" id="Home">
       <Navbar />
       <div className="lg:hidden">
-        <div className="font-bold text-5xl text-center py-15 ">
+        <div className="font-bold text-5xl text-center py-20 ">
           XI TKR 4
         </div>
         <div className="font-bold text-sm text-center pb-5">2023 - 2026</div>

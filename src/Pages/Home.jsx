@@ -11,12 +11,13 @@ const Home = () => {
         <div className="font-bold text-5xl text-center py-20 ">
           XI TKR 4
         </div>
+        <div className="text-sm text-center pb-5">2023 - 2026</div>
         <div className="border-2 flex justify-between px-10 text-4xl font-bold py-2 relative" id="TotalSiswa">
-          <div id="AngkaGradientBlue" className="flex items-center justify-center ">
+          <div id="AngkaGradientBlue" className="flex items-center justify-center text-7xl">
             35
           </div>
-          <div className="text-5xl" id="AngkaGradientBlue">
-            Boys
+          <div className="flex items-center justify-center">
+            <span id="AngkaGradientBlue" className="text-5xl"> Boys </span>
           </div>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-2 gap-7 md:gap-5">

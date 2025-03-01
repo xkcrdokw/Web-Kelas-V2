@@ -85,7 +85,7 @@ export default function AnggotaKelas() {
   return (
     <div>
       <Button onClick={handleOpen}>
-        <div className="flex items-center space-x-2 text-white px-6 py-4">
+        <div className="flex items-center space-x-2 text-white px-6 py-4 bg-transparent rounded">
           <span>Anggota Kelas</span>
         </div>
       </Button>

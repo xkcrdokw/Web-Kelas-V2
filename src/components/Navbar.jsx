@@ -60,7 +60,8 @@ const Navbar = () => {
           >
             <div className="text-center text-white">
               <div className="font-bold text-[1rem]">Informasi</div>
-              <div className="text-[0.7rem]">Web ini masih tahap pengembangan</div>
+              <div className="text-[0.7rem]">• Web ini masih tahap pengembangan</div>
+              <div className="text-[0.7rem]">• Selamat menunaikan ibadah puasa..</div>
             </div>
           </div>
         )}
